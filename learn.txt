@@ -9,3 +9,5 @@ Now is on origin dev branch
 merge dev to master success
 
 this is dev branch
+
+fix bug 101
