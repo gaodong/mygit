@@ -4,4 +4,4 @@ Git has a mutable index called stage.
 Git tracks changes.
 Now is on origin master
 
-Now is on origin dev branch
+Now is on origin dev branch master
