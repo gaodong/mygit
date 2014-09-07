@@ -10,4 +10,8 @@ merge dev to master success
 
 this is dev branch
 
+<<<<<<< Updated upstream
 fix bug 101
+=======
+stash
+>>>>>>> Stashed changes
