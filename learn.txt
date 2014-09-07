@@ -2,16 +2,4 @@ Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes.
-Now is on origin master
 
-Now is on origin dev branch 
-
-merge dev to master success
-
-this is dev branch
-
-<<<<<<< Updated upstream
-fix bug 101
-=======
-stash
->>>>>>> Stashed changes
