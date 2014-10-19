@@ -1,0 +1,15 @@
+嵌套类型
+	class 21点 {
+		enum 花色 {
+			case a, b, c, d
+		}
+		enum 牌 {
+			case two = 2, three, four, five, six, seven, eight, nine, ten
+			case J, Q, K, A
+		}
+		...
+	}
+
+	嵌套类型的引用 
+	let ace = 21点.牌.A.toRaw()
+	
