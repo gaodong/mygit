@@ -1,7 +1,7 @@
 
 openssl genrsa -out rsa_private_key.pem 1024  
 openssl rsa -in rsa_private_key.pem -out rsa_public_key.pem -pubout  
-// ÕâÊ±ºòµÄË½Ô¿»¹²»ÄÜÖ±½Ó±»Ê¹ÓÃ£¬ĞèÒª½øĞĞPKCS#8±àÂë£º
+// è¿™æ—¶å€™çš„ç§é’¥è¿˜ä¸èƒ½ç›´æ¥è¢«ä½¿ç”¨ï¼Œéœ€è¦è¿›è¡ŒPKCS#8ç¼–ç ï¼š
 openssl pkcs8 -topk8 -in rsa_private_key.pem -out pkcs8_rsa_private_key.pem -nocrypt
 
-Ê¹ÓÃpkcs8_rsa_private_keyÖĞµÄË½Ô¿ºÍrsa_public_keyÖĞµÄ¹«Ô¿base64×ªhex
+ä½¿ç”¨pkcs8_rsa_private_keyä¸­çš„ç§é’¥å’Œrsa_public_keyä¸­çš„å…¬é’¥base64è½¬hex
