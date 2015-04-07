@@ -1,0 +1,7 @@
+
+openssl genrsa -out rsa_private_key.pem 1024  
+openssl rsa -in rsa_private_key.pem -out rsa_public_key.pem -pubout  
+// 这时候的私钥还不能直接被使用，需要进行PKCS#8编码：
+openssl pkcs8 -topk8 -in rsa_private_key.pem -out pkcs8_rsa_private_key.pem -nocrypt
+
+使用pkcs8_rsa_private_key中的私钥和rsa_public_key中的公钥base64转hex
