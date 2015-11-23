@@ -88,6 +88,14 @@
 
 `git branch`
 
+**切换分支**
+
+`git checkout branchName`
+
+##### 合并
+
+`git merge branchName` # 当前在master，合并test分支内容
+
 
 
 
