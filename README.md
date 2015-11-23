@@ -92,7 +92,7 @@
 
 `git checkout branchName`
 
-##### 获取远程分支
+##### 创建本地分支，并关联到远程分支
 
 `git checkout -b <branchName> origin/dev`
 
