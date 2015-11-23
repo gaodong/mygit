@@ -96,7 +96,9 @@ branch edit
 
 `git merge branchName` # 当前在master，合并test分支内容
 
+##### 删除分支
 
+`git branch -d branchName`
 
 
 
