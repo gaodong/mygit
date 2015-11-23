@@ -1,6 +1,5 @@
 ### Git 操作
 
-
 ##### 初始化
 
 `git init`
@@ -17,7 +16,7 @@
 ##### 比较文件
 `git diff filename` *比较本地文件和缓存区*
 
-`git diff HEAD -- filename` *比较本地文件和版本库的文件*
+`git diff HEAD filename` *比较本地文件和版本库的文件*
 
 ##### 版本退回
 
