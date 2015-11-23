@@ -93,7 +93,7 @@
 
 `git checkout branchName`
 
-##### 远程分支1
+##### 获取远程分支
 
 `git checkout -b <branchName> origin/dev`
 
