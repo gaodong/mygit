@@ -19,6 +19,7 @@
 
 `git diff HEAD filename` *比较本地文件和版本库的文件*
 
+`git diff --staged` *比较暂存区与版本库之间的差别*
 ##### 版本退回
 
 `git reset --hard HEAD`
